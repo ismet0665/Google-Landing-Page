@@ -73,6 +73,9 @@ section {
   /* margin: auto;
   vertical-align: middle; */
 }
+.mic {
+  margin-left: 0.8rem;
+}
 
 .box {
   padding-top: 20px;
@@ -84,10 +87,25 @@ section #search {
   border: none;
   outline: none;
 }
+.sol {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* gap: 1rem; */
+  padding-right: 1rem;
+}
+/* .sol {
+    display: flex;
+    flex: 0 0 auto;
+    margin-top: -5px;
+    align-items: stretch;
+    flex-direction: row;
+    height: 44px;
+} */
 
 #img-sol {
   position: relative;
-  padding: 9px;
+  padding: 13px;
 }
 
 form {
@@ -100,7 +118,7 @@ form {
   border-radius: 25px;
 }
 form:hover {
-  box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 1px 6px rgba(32, 33, 36, 0.28);
 }
 
 section button {

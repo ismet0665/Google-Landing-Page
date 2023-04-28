@@ -1,83 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Google Landing Page</title>
-    <link rel="stylesheet" href="style.css" />
-    <link
-      rel="shortcut icon"
-      href="./images/gfavicon.png"
-      type="image/x-icon"
-    />
-  </head>
-  <body>
-    <header>
-      <nav class="nav-left">
-        <a href="#">About</a>
-        <a href="#">Store</a>
-      </nav>
 
-      <nav class="nav-right">
-        <a href="https://www.google.com.tr/imghp?hl=tr&authuser=0&ogbl">Gmail</a>
-        <a href="#">Images</a>
-        <a href="#"><img src="./images/appicon.png" alt="appicon" /></a>
-        <button>Sign In</button>
-      </nav>
-    </header>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Google Landing Page</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="shortcut icon" href="./images/gfavicon.png" type="image/x-icon" />
+</head>
 
-    <div class="clear"></div>
+<body>
+  <header>
+    <nav class="nav-left">
+      <a href="#">About</a>
+      <a href="#">Store</a>
+    </nav>
 
-    <section>
-       
-      <div class="box-img">
-        <img src="./images/googlelogo.png" alt="googlelogo" />
-      </div>
-       
-      <div class="box">
-        <form action="">
-            <div>
-        <img
+    <nav class="nav-right">
+      <a href="https://www.google.com.tr/imghp?hl=tr&authuser=0&ogbl">Gmail</a>
+      <a href="#">Images</a>
+      <a href="#"><img src="./images/appicon.png" alt="appicon" /></a>
+      <button>Sign In</button>
+    </nav>
+  </header>
+
+  <div class="clear"></div>
+
+  <section>
+
+    <div class="box-img">
+      <img src="./images/googlelogo.png" alt="googlelogo" />
+    </div>
+
+    <div class="box">
+      <form action="">
+        <div>
+ <i class="fa-solid fa-magnifying-glass" id="img-sol" style="color: #989aa0;"></i>
+        </div>
+        <div>
+          <input type="search" name="search" id="search" />
+        </div>
+        <div class="sol">
+          <i  id="img-sag"class="fa-regular fa-keyboard fa-xl" style="color: #989aa0;" ></i>
+          <img src="./images/google_microphone.png" alt="google_microphone" id="img-sag" class="mic"/>
+          
+          <svg id="img-sag" class="Gdd5U" focusable="false" viewBox="0 0 192 192" xmlns="http://www.w3.org/2000/svg"><rect fill="none" height="192" width="192"></rect><g><circle fill="#4285f4" cx="96" cy="104.15" r="28"></circle><path fill="#ea4335" d="M160,72v40.15V136c0,1.69-0.34,3.29-0.82,4.82v0v0c-1.57,4.92-5.43,8.78-10.35,10.35h0v0 c-1.53,0.49-3.13,0.82-4.82,0.82H66l16,16h50h12c4.42,0,8.63-0.9,12.46-2.51c3.83-1.62,7.28-3.96,10.17-6.86 c1.45-1.45,2.76-3.03,3.91-4.74c2.3-3.4,3.96-7.28,4.81-11.44c0.43-2.08,0.65-4.24,0.65-6.45v-12V96.15V84l-6-19l-10.82,2.18 C159.66,68.71,160,70.31,160,72z"></path><path fill="#4285f4" d="M32,72c0-1.69,0.34-3.29,0.82-4.82c1.57-4.92,5.43-8.78,10.35-10.35C44.71,56.34,46.31,56,48,56 h96c1.69,0,3.29,0.34,4.82,0.82c0,0,0,0,0,0L149,45l-17-5l-16-16h-13.44H96h-6.56H76L60,40H48c-17.67,0-32,14.33-32,32v12v20l16,16 V72z"></path><path fill="#34a853" d="M144,40h-12l16.83,16.83c1.23,0.39,2.39,0.93,3.47,1.59c2.16,1.32,3.97,3.13,5.29,5.29 c0.66,1.08,1.2,2.24,1.59,3.47v0L176,84V72C176,54.33,161.67,40,144,40z"></path><path fill="#fbbc05" d="M48,168h39.89l-16-16H48c-8.82,0-16-7.18-16-16v-23.89l-16-16V136C16,153.67,30.33,168,48,168z"></path></g></svg>
+          
+        </div>
+    </div>
+    <div class="box">
+      <button>Google Search</button>
+      <button>I'm Feeling Lucky</button>
+    </div>
+    <div class="box">
+      <p>Other Languages you can use Google: <a href="#" id="en">English</a></p>
+    </div>
+    </form>
+  </section>
+
+  <footer>
+    <div class="turkey">Turkey</div>
+    <hr>
+    <nav class="footer-left">
+      <a href="#">Advertising</a>
+      <a href="#">Business</a>
+      <a href="#">How Search Works</a>
+    </nav>
+    <nav class="footer-right">
+      <a href="#">Privacy</a>
+      <a href="#">Terms</a>
+      <a href="#">Settings</a>
+    </nav>
+  </footer>
+</body>
+
+</html>
+<!-- <img
           src="./images/Magnifying_glass_icon.png"
           alt="Magnifying_glass_icon"
-          id="img-sol"
-        />
-        </div>
-        <div>
-        <input type="search" name="search" id="search" />
-        </div>
-        <div>
-        <img
-          src="./images/google_microphone.png"
-          alt="google_microphone"
-          id="img-sag"
-        />
-        </div>
-      </div>
-      <div class="box">
-        <button>Google Search</button>
-        <button>I'm Feeling Lucky</button>
-      </div>
-      <div class="box">
-        <p>Other Languages you can use Google: <a href="#" id="en">English</a></p>
-      </div>
-      </form>
-    </section>
-
-    <footer>
-      <div class="turkey">Turkey</div>
-      <hr>
-      <nav class="footer-left">
-        <a href="#">Advertising</a>
-        <a href="#">Business</a>
-        <a href="#">How Search Works</a>
-      </nav>
-      <nav class="footer-right">
-        <a href="#">Privacy</a>
-        <a href="#">Terms</a>
-        <a href="#">Settings</a>
-      </nav>
-    </footer>
-  </body>
-</html>
+          id="img-sol" style="color: #b9babb;"
+        /> -->
